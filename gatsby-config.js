@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Mashable Clone",
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+};
